@@ -1,0 +1,40 @@
+[
+  { 
+    "id": 1,
+    "icon": "LaptopMinimal",
+    "name": "Web Designing & Development",
+    "description": "We create modern, responsive websites that look professional and convert visitors into customers.",
+    "points": [
+      "Mobile Responsive ",
+      "Fast Performance",
+      "User Focused",
+      "Secure Scalable"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "Search ",
+    "name": "Search Engine Optimization (SEO)",
+    "description": "Our SEO strategies help your business rank higher on Google and drive quality organic traffic.",
+    "points": [
+  "Keyword Research",
+  "Technical SEO",
+  "Local SEO",
+  "Performance Reports"
+]
+
+  },
+  {
+    "id": 3,
+    "icon": "Instagram",
+    "name": "Social Media Promotion & Content Creation",
+    "description": "We grow your brand on social media with engaging content and result-driven promotion strategies.",
+  "points": [
+  "Content Planning",
+  "Creative Reels",
+  "Targeted Promotions",
+  "Engagement Growth"
+]
+
+  }
+]
