@@ -605,7 +605,7 @@ export default function App() {
                 Contact Us
             </div> */}
 
-          <div className="text-center mb-10 md:mb-16 lg:mb-2">
+          <div className="text-center mb-1 md:mb-16 lg:mb-2">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -620,13 +620,13 @@ export default function App() {
             </motion.div>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
             Let's Craft the{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-purple-600 to-pink-500">
               Future
             </span>
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto px-4 leading-relaxed">
+          <p className="text-lg md:text-2xl text-gray-700 max-w-xl md:max-w-2xl mx-auto px-4 leading-relaxed">
             Whether you have a groundbreaking idea or just want to say hello,
             we're ready to make it happen.
           </p>

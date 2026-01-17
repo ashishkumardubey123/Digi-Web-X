@@ -164,7 +164,7 @@ const ServicesPage: React.FC = () => {
           viewport={{ once: true }}
           className="max-w-7xl mx-auto px-4 mb-24"
         >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-2">
+            <h3 className="text-sm md:text-2xl justify-center font-bold text-gray-900 mb-8 flex items-center  gap-2">
                 <Code2 className="w-6 h-6 text-purple-600" />
                 Website Development Plans
             </h3>
