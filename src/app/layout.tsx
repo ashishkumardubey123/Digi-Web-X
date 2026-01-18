@@ -26,9 +26,7 @@ export const metadata: Metadata = {
     icon: "/fav-icon.png",
   },
   metadataBase: new URL("https://digiwebx.vercel.app/"),
-   alternates: {
-    canonical: "./",  // Automatic har page ka canonical banayega
-  },
+  
 };
 
 export default function RootLayout({
