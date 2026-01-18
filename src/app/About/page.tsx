@@ -7,6 +7,7 @@ import { Target, Lightbulb, Users, ShieldCheck, Trophy, Rocket, Zap, Heart } fro
 import StatsSection from '@/Components/StatsSection';
 import TestimonialSection from '@/Components/TestimonialSection';
 
+
 const AboutPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);

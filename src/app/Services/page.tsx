@@ -1,11 +1,13 @@
 "use client";
 import React, { useEffect } from 'react';
-
-
 import ContactSection from '@/app/contact/page';
 import { motion, Variants } from 'framer-motion';
 import { Check, Code2, Zap, Layout, Star, TrendingUp, Search, Phone, Rocket, Globe, Monitor } from 'lucide-react';
 import Link from 'next/link';
+import type { Metadata } from "next";
+
+
+
 
 const ServicesPage: React.FC = () => {
   useEffect(() => {
@@ -39,6 +41,8 @@ const ServicesPage: React.FC = () => {
       }
     })
   };
+
+  
 
   return (
     <>
