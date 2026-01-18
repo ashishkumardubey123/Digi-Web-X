@@ -291,7 +291,7 @@ const AboutClient: React.FC = () => {
 
         {/* Reuse Contact Section */}
         <div className="bg-[#fdfcff] border-t border-gray-100">
-          <ContactSection/>
+          <ContactSection />
         </div>
       </div>
     </>

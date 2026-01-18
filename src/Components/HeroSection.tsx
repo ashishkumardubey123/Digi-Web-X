@@ -87,7 +87,7 @@ function HeroSection() {
 </Link>
 
 
-<Link href="/contact">
+<Link href="/Contact">
   <div className="relative group inline-block">
     <button
       className="
