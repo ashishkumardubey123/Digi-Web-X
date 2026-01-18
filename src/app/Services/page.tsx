@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import ContactSection from "@/app/Contact/page";
+import ContactSection from "@/app/contact/page";
 import { motion, Variants } from "framer-motion";
 import {
   Check,

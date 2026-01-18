@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 
-import ContactSection from "@/app/Contact/page";
+import ContactSection from "@/app/contact/page";
 import { motion } from "framer-motion";
 import {
   Target,
@@ -279,7 +279,7 @@ const AboutClient: React.FC = () => {
             <p className="text-gray-400 text-lg md:text-xl mb-10 leading-relaxed">
               Our team consists of senior full-stack developers, SEO
               strategists, and creative designers who live and breathe digital.
-              We don't outsource; we take ownership.
+              We don not outsource; we take ownership.
             </p>
           </div>
         </div>
