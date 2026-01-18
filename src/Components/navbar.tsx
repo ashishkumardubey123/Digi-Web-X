@@ -40,7 +40,7 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "Service", path: "/Services" },
     { name: "About", path: "/About" },
-    { name: "Contact", path: "/contact" }, // ✅ lowercase
+    { name: "Contact", path: "/Contact" }, // ✅ lowercase
   ];
 
   return (
