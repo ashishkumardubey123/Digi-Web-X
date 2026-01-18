@@ -1,5 +1,5 @@
 import React from "react";
-import ContactSection from "@/app/contact/page";
+
 
 import FAQSection from "@/Components/FAQSection";
 import Herosection from "@/Components/HeroSection";
@@ -10,7 +10,7 @@ import ServicesSection from "@/Components/ServicesSection";
 import StatsSection from "@/Components/StatsSection";
 import TestimonialSection from "@/Components/TestimonialSection";
 import WhyChooseUs from "@/Components/whayChoseUs";
-import ContactPage from "@/app/contact/page";
+import ContactPage from "@/app/Contact/page";
 
 function Homepage() {
   return (

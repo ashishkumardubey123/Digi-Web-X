@@ -122,7 +122,7 @@ const FooterSection = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/Contact"
                   className="hover:text-purple-400 transition-colors text-sm"
                 >
                   Contact

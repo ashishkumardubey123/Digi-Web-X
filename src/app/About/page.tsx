@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 
-import ContactSection from "@/app/contact/page";
+import ContactSection from "@/app/Contact/page";
 import { motion } from "framer-motion";
 import {
   Target,
@@ -291,7 +291,7 @@ const AboutClient: React.FC = () => {
 
         {/* Reuse Contact Section */}
         <div className="bg-[#fdfcff] border-t border-gray-100">
-          <ContactSection />
+          <ContactSection/>
         </div>
       </div>
     </>

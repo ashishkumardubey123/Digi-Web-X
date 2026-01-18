@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import ContactSection from "@/app/contact/page";
+import ContactSection from "@/app/Contact/page";
 import { motion, Variants } from "framer-motion";
 import {
   Check,
@@ -288,7 +288,7 @@ export default function ServicesClient() {
                 ))}
               </ul>
 
-              <Link href="/contact">
+              <Link href="/Contact">
                 <button className="relative z-10 w-full py-4 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold hover:shadow-lg hover:shadow-purple-600/40 transition-all duration-300">
                   Build with Modern Tech
                 </button>
@@ -360,7 +360,7 @@ export default function ServicesClient() {
                   </li>
                 </ul>
                 <Link
-                  href="/contact"
+                  href="/Contact"
                   className="block text-center w-full py-3 rounded-xl bg-white border border-gray-200 text-gray-900 font-semibold hover:border-purple-600 hover:text-purple-600 transition-colors"
                 >
                   Select Plan
@@ -403,7 +403,7 @@ export default function ServicesClient() {
                   </li>
                 </ul>
                 <Link
-                  href="/contact"
+                  href="/Contact"
                   className="block text-center w-full py-3 rounded-xl bg-purple-600 text-white font-semibold hover:bg-purple-700 transition-colors shadow-lg shadow-purple-200"
                 >
                   Get Complete Solution
@@ -445,7 +445,7 @@ export default function ServicesClient() {
                   </li>
                 </ul>
                 <Link
-                  href="/contact"
+                  href="/Contact"
                   className="block text-center w-full py-3 rounded-xl bg-white border border-gray-200 text-gray-900 font-semibold hover:border-green-500 hover:text-green-600 transition-colors"
                 >
                   Start Monthly
