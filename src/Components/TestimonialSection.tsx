@@ -4,41 +4,42 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 
 const testimonials = [
-  {
-    id: 1,
-    name: "Rahul Sharma",
-    role: "Founder, Startup India",
-    content: "DigiWebx ne meri website aur SEO dono sambhal liya. Organic traffic 3 months me double ho gaya. The team is very supportive and technically sound.",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Priya Patel",
-    role: "Marketing Head, FashionHub",
-    content: "Inka social media content game strong hai! Reels and posts ki quality ekdum premium hai, aur engagement bhi badh gaya. Highly recommended for Digital Marketing.",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "David Wilson",
-    role: "CEO, TechGlobal",
-    content: "One of the best agencies for Web Development & Digital Strategy. DigiWebx team ne meri requirement ko bahut ache se samjha aur ROI-focused ads run kiye.",
-    rating: 5
-  },
-  {
-    id: 4,
-    name: "Amit Verma",
-    role: "Director, GreenHomes",
-    content: "Professional service aur timely delivery. Inhone meri real estate website ko SEO optimize kiya aur ab hume Google se direct leads aa rahi hain.",
-    rating: 5
-  },
-  {
-    id: 5,
-    name: "Sneha Gupta",
-    role: "Owner, The Baker's Studio",
-    content: "Meri bakery ke liye inhone amazing social media calendar banaya. Designs aur captions bahut creative the. Best digital agency experience!",
-    rating: 5
-  }
+ {
+  id: 1,
+  name: "Rahul Sharma",
+  role: "Founder, Startup India",
+  content: "Digi-WebX ne meri website development aur SEO dono ka kaam sambhala. Sirf 3 mahine me organic traffic kaafi improve hua aur genuine leads aani shuru ho gayi. Team communication aur support dono hi strong hai.",
+  rating: 5
+},
+{
+  id: 2,
+  name: "Priya Patel",
+  role: "Marketing Head, FashionHub",
+  content: "Social media marketing ke liye Digi-WebX best choice raha. Reels, creatives aur captions sab premium quality ke the. Instagram engagement noticeable increase hua. Agar digital marketing agency chahiye, to definitely recommend karungi.",
+  rating: 5
+},
+{
+  id: 3,
+  name: "David Wilson",
+  role: "CEO, TechGlobal",
+  content: "We worked with Digi-WebX for web development and performance-driven digital marketing. They clearly understood our business goals and executed everything professionally. The results were ROI-focused and measurable.",
+  rating: 5
+},
+{
+  id: 4,
+  name: "Amit Verma",
+  role: "Director, GreenHomes",
+  content: "Real estate website ke SEO aur optimization ke liye Digi-WebX ko hire kiya tha. Website ka loading speed improve hua aur Google search se direct enquiries aane lagi. Delivery time aur professionalism dono impressive rahe.",
+  rating: 5
+},
+{
+  id: 5,
+  name: "Sneha Gupta",
+  role: "Owner, The Baker's Studio",
+  content: "Meri bakery business ke liye Digi-WebX ne social media content calendar aur creatives banaye. Designs eye-catching the aur captions bilkul brand ke tone me the. Overall experience smooth aur result-oriented raha.",
+  rating: 5
+}
+
 ];
 
 // Duplicate data to create a seamless loop
