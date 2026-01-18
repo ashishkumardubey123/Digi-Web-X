@@ -59,17 +59,20 @@ function HeroSection() {
      
       words={[
         "High-Performing Websites",
-        
         "Result-Driven Experiences",
         "Growth-Focused Solutions",
       ]}
     />
   </div>
-
   {/* Description */}
-  <p>
+  <div>
+
     <TextGenerateEffect words={words} />
-  </p>
+
+  </div>
+
+
+
 
   {/* Buttons */}
  {/* Buttons */}

@@ -94,9 +94,20 @@ const ServicesPage: React.FC = () => {
         </span>
       </h1>
 
-      <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-        We combine modern web development with data-driven marketing to build brands that grow and convert.
-      </p>
+      <p className="text-base md:text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+        We combine modern web development with data-driven marketing to build brands that grow and convert.We follow Google SEO best practices as mentioned in {" "}
+  <a
+    href="https://developers.google.com/search/docs"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-800 font-semibold  "
+  >
+    Google Search Central Guidelines 
+  </a>
+
+
+  {" "}to ensure long-term rankings.
+</p>
     </motion.div>
 
     {/* Floating Icons */}

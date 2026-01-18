@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import Schema from "@/Components/Schema";
 import Navbar from "@/Components/navbar";
 import FooterSection from "@/Components/FooterSection";
 import SnowEffect from "@/Components/snowFall";
@@ -18,15 +18,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
-
 export const metadata: Metadata = {
-  title: "Digi-WebX",
-  description: "We are one of the leading digital services provider, offering web development, SEO, and social media marketing to help your business thrive online.",
+  title: "Digi-WebX | Website Development & SEO Services in India",
+  description:
+    "We are one of the leading digital services provider, offering professional website development and SEO services to help your business thrive online",
   icons: {
-    icon: "./fav-icon.png",
-  
+    icon: "/fav-icon.png",
   },
+  metadataBase: new URL("https://digiwebx.vercel.app/"),
 };
 
 export default function RootLayout({
@@ -36,28 +35,32 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* ✅ HEAD SECTION */}
+      <head>
+        <Schema />
+      </head>
+
+      {/* ✅ BODY */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden bg-white`}
       >
         {/* ❄️ Global Snowfall */}
         <SnowEffect />
 
-        {/* 📞 Global Call Button (Left Bottom) */}
+        {/* 📞 Global Call Button */}
         <CallButton />
 
         {/* 🔝 Navbar */}
         <Navbar />
 
         {/* 📄 Page Content */}
-        <main className="relative z-10">
-          {children}
-        </main>
+        <main className="relative z-10">{children}</main>
 
         {/* 🔻 Footer */}
         <FooterSection />
-        
-  {/* 📱 Mobile Bottom Buttons */}
-  <MobileBottomContactBar />
+
+        {/* 📱 Mobile Bottom Buttons */}
+        <MobileBottomContactBar />
       </body>
     </html>
   );

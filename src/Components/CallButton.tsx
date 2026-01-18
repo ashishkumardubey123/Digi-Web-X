@@ -14,8 +14,7 @@ export default function CallButton() {
       animate={{ scale: 1 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className="
-        fixed bottom-6 right-6 z-50
+      className="fixed bottom-6 right-6 z-50
         flex items-center gap-2
         bg-gradient-to-r from-purple-500 to-indigo-600
         text-white

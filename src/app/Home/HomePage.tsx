@@ -15,7 +15,7 @@ import WhyChooseUs from "@/Components/whayChoseUs";
 function Homepage() {
   return (
     <div>
-          <Herosection/>
+        <Herosection/>
         <StatsSection/>
         {/* <Our_services/> */}
         <ServicesSection/>
