@@ -1,12 +1,6 @@
 
 import Homepage from "./Home/HomePage";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical: "https://digiwebx.vercel.app/",
-  },
-};
 
 export default function Home() {
   return (

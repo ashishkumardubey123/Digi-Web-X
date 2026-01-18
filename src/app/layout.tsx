@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/fav-icon.png",
   },
-  metadataBase: new URL("https://digiwebx.vercel.app/"),
+
   
 };
 
