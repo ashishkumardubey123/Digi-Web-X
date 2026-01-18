@@ -9,6 +9,7 @@ import {
   Phone,
   MapPin,
   Heart,
+  Github,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -33,10 +34,32 @@ const FooterSection = () => {
               businesses.
             </p>
             <div className="flex gap-4">
-              {[Instagram, Linkedin, Twitter, Facebook].map((Icon, i) => (
+              {[
+                {
+                  Icon: Twitter,
+                  href: "https://x.com/ASHISHD26473289",
+                  color: "hover:bg-blue-400",
+                },
+                {
+                  Icon: Linkedin,
+                  href: " www.linkedin.com/in/ashish-dubey-26aaaa1b4",
+                  color: "hover:bg-blue-700",
+                },
+                {
+                  Icon: Instagram,
+                  href: "https://www.instagram.com/digi_webx/",
+                  color: "hover:bg-pink-600",
+                },
+                {
+                  Icon: Github,
+                  href: "https://github.com/ashishkumardubey123",
+                  color: "hover:bg-gray-900",
+                },
+              ].map(({ Icon, href, color }, index) => (
                 <a
-                  key={i}
-                  href="#"
+                  key={index}
+                  href={href}
+                   target="_blanck"
                   className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-purple-600 hover:text-white transition-all duration-300"
                 >
                   <Icon className="w-5 h-5" />
@@ -70,26 +93,51 @@ const FooterSection = () => {
           </div>
 
           {/* Quick Links Column */}
-         <div>
-                    <h3 className="text-white font-bold text-lg mb-6">Company</h3>
-                    <ul className="space-y-4">
-                       <li>
-                            <Link href="/" className="hover:text-purple-400 transition-colors text-sm">Home</Link>
-                        </li>
-                        <li>
-                            <Link href="/About" className="hover:text-purple-400 transition-colors text-sm">About Us</Link>
-                        </li>
-                        <li>
-                             <Link href="/Services" className="hover:text-purple-400 transition-colors text-sm">services</Link>
-                        </li>
-                        <li>
-                             <Link href="/contact" className="hover:text-purple-400 transition-colors text-sm">Contact</Link>
-                        </li>
-                         <li>
-                             <Link href="#" className="hover:text-purple-400 transition-colors text-sm">Portfolio</Link>
-                        </li>
-                    </ul>
-                </div>
+          <div>
+            <h3 className="text-white font-bold text-lg mb-6">Company</h3>
+            <ul className="space-y-4">
+              <li>
+                <Link
+                  href="/"
+                  className="hover:text-purple-400 transition-colors text-sm"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/About"
+                  className="hover:text-purple-400 transition-colors text-sm"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/Services"
+                  className="hover:text-purple-400 transition-colors text-sm"
+                >
+                  services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-purple-400 transition-colors text-sm"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#"
+                  className="hover:text-purple-400 transition-colors text-sm"
+                >
+                  Portfolio
+                </Link>
+              </li>
+            </ul>
+          </div>
           {/* Contact Column */}
           <div>
             <h3 className="text-white font-bold text-lg mb-6">Contact Us</h3>

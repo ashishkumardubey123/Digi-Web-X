@@ -576,14 +576,15 @@ const ContactInfo = () => {
         </h4>
         <div className="flex gap-4">
           {[
-            { Icon: Twitter, href: "#", color: "hover:bg-blue-400" },
-            { Icon: Linkedin, href: "#", color: "hover:bg-blue-700" },
-            { Icon: Instagram, href: "#", color: "hover:bg-pink-600" },
-            { Icon: Github, href: "#", color: "hover:bg-gray-900" },
+            { Icon: Twitter, href: "https://x.com/ASHISHD26473289", color: "hover:bg-blue-400" },
+            { Icon: Linkedin, href: " www.linkedin.com/in/ashish-dubey-26aaaa1b4", color: "hover:bg-blue-700" },
+            { Icon: Instagram, href: "https://www.instagram.com/digi_webx/", color: "hover:bg-pink-600" },
+            { Icon: Github, href: "https://github.com/ashishkumardubey123", color: "hover:bg-gray-900" },
           ].map(({ Icon, href, color }, index) => (
             <a
               key={index}
               href={href}
+              target="_blanck"
               className={`w-12 h-12 rounded-2xl bg-white border border-gray-100 flex items-center justify-center text-gray-400 hover:text-white ${color} hover:border-transparent hover:shadow-lg hover:-translate-y-1 transition-all duration-300`}
             >
               <Icon className="w-5 h-5" />
