@@ -11,6 +11,7 @@ import ServicesSection from "@/Components/ServicesSection";
 import StatsSection from "@/Components/StatsSection";
 import TestimonialSection from "@/Components/TestimonialSection";
 import WhyChooseUs from "@/Components/whayChoseUs";
+import ContactPage from '@/app/contact/page';
 
 function Homepage() {
   return (
@@ -23,7 +24,7 @@ function Homepage() {
         <HowWeWork/>
         <TestimonialSection/>
         <FAQSection/>
-      <ContactSection/>
+      <ContactPage/>
     </div>
   )
 }
