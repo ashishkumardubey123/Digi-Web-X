@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://digital-web-services.vercel.app//sitemap.xml
+Sitemap: https://digiwebx.vercel.app/sitemap.xml

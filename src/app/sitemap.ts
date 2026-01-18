@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://digital-web-services.vercel.app/"; // 👈 apni domain daalo
+  const baseUrl = "https://digiwebx.vercel.app/"
 
   return [
     {
